@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Dealership Application</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #00a9a9;
+            padding: 15px;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 5px;
+        }
+        nav ul li a.active {
+            background: white;
+            color: #00a9a9;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .banner {
+            margin-bottom: 20px;
+        }
+        .banner img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .contact-section {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 40px;
+            text-align: left;
+        }
+        .contact-section img {
+            width: 120px;
+        }
+        .contact-info p {
+            margin: 6px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About Us</a></li>
+                <li><a href="/contact/" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Cars Image -->
+        <div class="banner">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Cars Banner" width="700" height="300" >
+        </div>
+
+        <!-- Two-column layout -->
+        <div class="contact-section">
+            <!-- Contact Icon -->
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Contact Icon">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <p><strong>Contact Customer Service</strong></p>
+                <p>Email: support@dealershipapp.com</p>
+
+                <p><strong>Contact our National Advertising team</strong></p>
+                <p>Email: ads@dealershipapp.com</p>
+
+                <p><strong>Contact our Public Relations team</strong></p>
+                <p>Email: pr@dealershipapp.com</p>
+
+                <p><strong>Call us</strong></p>
+                <p>+91-98765-43210</p>
+
+                <p><strong>Become a dealer</strong></p>
+                <p>Email: dealer@dealershipapp.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
